@@ -13,10 +13,7 @@ import HelloWorld from './components/HelloWorld.vue'</script>
 
   <div>
 
-    <HelloWorld Vue msg="Vite  "
-    " />
-
-    //Sing me to Sleep
+    <HelloWorld Vue msg="Random"/>
 
     //Nested Template..
 
