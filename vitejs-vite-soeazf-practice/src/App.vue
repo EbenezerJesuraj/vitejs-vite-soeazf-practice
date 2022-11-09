@@ -6,28 +6,21 @@ import HelloWorld from './components/HelloWorld.vue'</script>
 <template>
   <div>
   </div>
-  <HelloWorld msg="Vite + Vue"/>
-</template>
-
-<template>
+  <HelloWorld msg="Hello Vite + Vue "/>
 
   <div>
 
-    <HelloWorld Vue msg="Random"/>
+    <HelloWorld Vue msg="Testing Vue msg component"/>
 
     //Nested Template..
+  </div>
 
-    <template>
-
-      <div>
-        <HelloWorld msg="Vite + Vue"/>
-      </div>
-
-    </template>
-
+  <div>
+        <HelloWorld msg="Closing Vite + Vue"/>
   </div>
 
 </template>
+
 <style scoped>
 
 .logo {
